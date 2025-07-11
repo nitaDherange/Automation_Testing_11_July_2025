@@ -15,7 +15,7 @@ public class DragAndDropExample {
         driver.manage().window().maximize();
        WebElement srcElement =driver.findElement(By.id("draggable"));
        WebElement desElement = driver.findElement(By.id("droppable"));
-        Actions a = new Actions(driver);
+        Actions a = new Actions Actions(driver);
                 a.dragAndDrop(srcElement,desElement )
         .pause(Duration.ofSeconds(20))
                 .perform();
