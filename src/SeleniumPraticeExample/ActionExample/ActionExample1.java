@@ -23,8 +23,9 @@ public class ActionExample1 {
         a.clickAndHold(ElementA)
                 .pause(Duration.ofSeconds(20))
                 .perform();
+        .perform();
         
-        driver.();
+        driver.close();
 
         }
 
