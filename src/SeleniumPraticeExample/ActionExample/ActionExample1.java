@@ -24,7 +24,7 @@ public class ActionExample1 {
                 .pause(Duration.ofSeconds(20))
                 .perform();
         
-        driver.close();
+        driver.();
 
         }
 

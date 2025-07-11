@@ -21,7 +21,8 @@ public class DoubleClickExample {
      Actions a = new Actions(driver);
      a.doubleClick(rightElement)
         .pause(Duration.ofSeconds(20))
+
                 .perform();
-        driver.close();
+        driver.quit();
     }
 }
