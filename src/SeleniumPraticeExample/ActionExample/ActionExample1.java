@@ -6,12 +6,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.interactions.Pause;
-
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.beans.PropertyChangeListener;
 import java.time.Duration;
-
 public class ActionExample1 {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
